@@ -58,3 +58,9 @@ p {
 .Very-dark-cyan button {
   color: hsl(179, 100%, 13%);
 }
+@media (max-width: 375px) {
+ /* display: block;    */
+ main{
+    display: block;
+ }
+}
