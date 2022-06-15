@@ -4,10 +4,20 @@
       padding: 0;
       box-sizing: border-box;
     }
+    @font-face {
+      font-family: "Lexend Deca";
+      src: url(https://fonts.google.com/specimen/Lexend+Deca)
+    }
+    @font-face {
+      font-family: "Big Shoulders Display";
+      src: url(https://fonts.google.com/specimen/Big+Shoulders+Display)
+    }
+    
     body {
       font-size: 15px;
-      /* font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca); */
-    }
+      font-family: "Lexend Deca", "Big Shoulders Display";
+      font-weight: 400, 700;
+  }
     main {
       width: 60%;
       margin: auto;
