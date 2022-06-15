@@ -92,7 +92,7 @@ p {
   color: hsl(0, 0%, 95%);
   cursor: pointer;
 }
-@media (max-width: 575px) {
+@media (max-width: 375px) {
   main {
     display: block;
     width: 80%;
