@@ -6,6 +6,11 @@
 body{
   background-color: #1A1C28;
 }
+.index-link {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: aqua;
+}
 .container{
   display: grid;
   margin-top: 100px;
@@ -13,7 +18,6 @@ body{
   width: 50%;
   margin-left: 20%;
   height: 400px;
-  /* grid-template-columns: ; */
 }
 .item1{
   background-color: #EB5020;
